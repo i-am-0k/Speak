@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-title" content="Speak">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="page">
+        <header class="head">
+            <div class="head__container">
+                <svg class="head__svg" viewBox="0 0 183 36" fill="none">
+                    <rect width="183" height="36" fill="url(#pattern0_1_572)"/>
+                    <defs>
+                    <pattern id="pattern0_1_572" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image0_1_572" transform="matrix(0.00269481 0 0 0.0136986 -0.010667 0)"/>
+                    </pattern>
+                    <image id="image0_1_572" width="379" height="73" preserveAspectRatio="none" xlink:href="data:image/png;base64,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"/>
+                    </defs>
+                </svg>
+                <nav class="head__nav">
+                    <a href="#" class="head__link">About us</a>
+                    <a href="#" class="head__link">Blog</a>
+                    <a href="#" class="head__link">Contact</a>
+                </nav>
+                <div class="head__btns">
+                    <div class="head__btn2">Начать беседу</div>
+                    <div class="head__lang">
+                        <svg class="head__flag" viewBox="0 0 26 26" fill="#F0F0F0">
+                            <g clip-path="url(#clip0_3846_1329)">
+                            <path d="M13 26C20.1797 26 26 20.1797 26 13C26 5.8203 20.1797 0 13 0C5.8203 0 0 5.8203 0 13C0 20.1797 5.8203 26 13 26Z" fill="#F0F0F0"/>
+                            <path d="M12.435 13.0002H26.0002C26.0002 11.8269 25.8438 10.6902 25.5524 9.60889H12.435V13.0002Z" fill="#D80027"/>
+                            <path d="M12.435 6.2175H24.0922C23.2964 4.91892 22.2789 3.77111 21.0925 2.82617H12.435V6.2175Z" fill="#D80027"/>
+                            <path d="M13 25.9999C16.0595 25.9999 18.8716 24.9424 21.0923 23.1738H4.90768C7.12834 24.9424 9.94045 25.9999 13 25.9999Z" fill="#D80027"/>
+                            <path d="M1.90814 19.7829H24.092C24.7309 18.7404 25.2264 17.6009 25.5522 16.3916H0.447929C0.773793 17.6009 1.26927 18.7404 1.90814 19.7829Z" fill="#D80027"/>
+                            <path d="M6.02184 2.03013H7.20652L6.10457 2.8307L6.52549 4.12608L5.42359 3.32551L4.32169 4.12608L4.68528 3.00701C3.71505 3.8152 2.86467 4.76206 2.16389 5.81709H2.54348L1.84204 6.32668C1.73276 6.50899 1.62795 6.69419 1.5275 6.88213L1.86245 7.91304L1.23754 7.459C1.0822 7.78812 0.940113 8.12464 0.812398 8.46818L1.18143 9.60406H2.54348L1.44153 10.4046L1.86245 11.7L0.760551 10.8994L0.100496 11.379C0.0344297 11.9101 0 12.451 0 13H13C13 5.82034 13 4.97392 13 0C10.4319 0 8.03791 0.744961 6.02184 2.03013ZM6.52549 11.7L5.42359 10.8994L4.32169 11.7L4.74261 10.4046L3.64066 9.60406H5.00271L5.42359 8.30868L5.84447 9.60406H7.20652L6.10457 10.4046L6.52549 11.7ZM6.10457 6.61766L6.52549 7.91304L5.42359 7.11247L4.32169 7.91304L4.74261 6.61766L3.64066 5.81709H5.00271L5.42359 4.52171L5.84447 5.81709H7.20652L6.10457 6.61766ZM11.1885 11.7L10.0866 10.8994L8.98473 11.7L9.40565 10.4046L8.3037 9.60406H9.66575L10.0866 8.30868L10.5075 9.60406H11.8696L10.7676 10.4046L11.1885 11.7ZM10.7676 6.61766L11.1885 7.91304L10.0866 7.11247L8.98473 7.91304L9.40565 6.61766L8.3037 5.81709H9.66575L10.0866 4.52171L10.5075 5.81709H11.8696L10.7676 6.61766ZM10.7676 2.8307L11.1885 4.12608L10.0866 3.32551L8.98473 4.12608L9.40565 2.8307L8.3037 2.03013H9.66575L10.0866 0.734754L10.5075 2.03013H11.8696L10.7676 2.8307Z" fill="#0052B4"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_3846_1329">
+                            <rect width="26" height="26" fill="white"/>
+                            </clipPath>
+                            </defs>
+                        </svg>
+                        <p class="head__lang-text">EN</p>
+                        <svg class="head__chevron" viewBox="0 0 12 8" fill="none">
+                            <path d="M1 1.5L6 6.5L11 1.5" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <svg class="head__burg" viewBox="0 0 24 20" fill="none">
+                        <g clip-path="url(#clip0_51_1448)">
+                        <path d="M21.7914 0H2.20861C0.990797 0 0 0.67265 0 1.50051C0 2.32732 0.990797 3 2.20861 3H21.7914C23.0092 3 24 2.32732 24 1.50051C24 0.67265 23.0092 0 21.7914 0Z" fill="#333333"/>
+                        <path d="M21.7914 8.5H2.20861C0.990797 8.5 0 9.17265 0 10.0005C0 10.8273 0.990797 11.5 2.20861 11.5H21.7914C23.0092 11.5 24 10.8273 24 10.0005C24 9.17265 23.0092 8.5 21.7914 8.5Z" fill="#00B9B6"/>
+                        <path d="M21.7914 17H2.20861C0.990797 17 0 17.6727 0 18.5005C0 19.3273 0.990797 20 2.20861 20H21.7914C23.0092 20 24 19.3273 24 18.5005C24 17.6727 23.0092 17 21.7914 17Z" fill="#333333"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_51_1448">
+                        <rect width="24" height="20" fill="white"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+                    <button class="head__btn">Войти</button>
+                </div>
+            </div>
+        </header>
+        <section class="session">
+            <h1 class="visually-hidden">Session</h1>
+            <div class="session__container">
+                <div class="session__desc">
+                    <div class="session__text">
+                        <p class="session__suptitle">+300 прошедших отбор психологов</p>
+                        <h2 class="session__title">Сессии с психологом Онлайн</h2>
+                    </div>
+                    <button class="session__btn">Начать беседу</button>
+                </div>
+                <div class="session__pictures">
+                    <picture class="session__pic">
+                        <source srcset="./images/human4.avif" type="image/avif" media="(max-width: 360px)">
+                        <source srcset="./images/human3.avif" type="image/avif" media="(max-width: 768px)">
+                        <source srcset="./images/human2.avif" type="image/avif" media="(max-width: 1100px)">
+                        <source srcset="./images/human.avif" type="image/avif">
+                        <source srcset="./images/human4.webp" type="image/webp" media="(max-width: 360px)">
+                        <source srcset="./images/human3.webp" type="image/webp" media="(max-width: 768px)">
+                        <source srcset="./images/human2.webp" type="image/webp" media="(max-width: 1100px)">
+                        <source srcset="./images/human.webp" type="image/webp">
+                        <img src="./images/human.png" alt="human" class="session__img">
+                    </picture>
+                    <picture class="session__cloud1">
+                        <source srcset="./images/cloud.avif" type="image/avif">
+                        <source srcset="./images/cloud.webp" type="image/webp">
+                        <img src="./images/cloud.png" alt="cloud" class="session__img1">
+                    </picture>
+                    <picture class="session__cloud2">
+                        <source srcset="./images/cloud.avif" type="image/avif">
+                        <source srcset="./images/cloud.webp" type="image/webp">
+                        <img src="./images/cloud.png" alt="cloud" class="session__img2">
+                    </picture>
+                    <picture class="session__cloud3">
+                        <source srcset="./images/cloud.avif" type="image/avif">
+                        <source srcset="./images/cloud.webp" type="image/webp">
+                        <img src="./images/cloud.png" alt="cloud" class="session__img3">
+                    </picture>
+                </div>
+            </div>
+        </section>
+        <section class="speak">
+            <h2 class="visually-hidden">Speak</h2>
+        </section>
+    </div>
+</body>
+</html>
